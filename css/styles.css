@@ -17,17 +17,6 @@
 .nav-image {
 }
 
-.btn-nav-start {
-    border: none;
-    background-color: #00A082;
-    padding: 1.4rem 3.2rem;
-    border-radius: 2.4rem;
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: 700;
-    letter-spacing: 0.05rem;
-}
-
 /* *********************************** */
 /* SECTION - HERO */
 /* *********************************** */
@@ -149,6 +138,7 @@
 
 .restaurant-image {
     width: 100%;
+    background-color: red;
 }
 
 .restaurant-description:link,
@@ -168,7 +158,51 @@
 /* SECTION - Shipping */
 /* *********************************** */
 
+.section-container {
+    text-align: center;
+}
+
+.shipping-grid {
+    gap: 6.2rem;
+    justify-items: center;
+}
+
 .shipping-header {
     font-weight: 700;
     text-align: center;
+}
+
+.shipping-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.shipping-image {
+    width: 24rem;
+}
+
+.shipping-card-header {
+    font-weight: 700;
+}
+
+.shipping-description {
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+
+.shipping-button {
+    justify-self: center;
+}
+
+.highlight-container {
+    background-color: #FFC244;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+.text-highlight {
+    background: transparent;
+    font-size: 1.65rem;
 }
