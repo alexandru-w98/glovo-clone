@@ -206,3 +206,38 @@
     background: transparent;
     font-size: 1.65rem;
 }
+
+/* *********************************** */
+/* SECTION - Meals - Locations */
+/* *********************************** */
+
+.section-meals-locations {
+    background-color: #FFC244;
+}
+
+.location-image {
+    width: 24rem;
+}
+
+.location-header {
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.location-link:visited,
+.location-link:link {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1.6rem 4rem;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 4.8rem;
+    text-align: center;
+}
