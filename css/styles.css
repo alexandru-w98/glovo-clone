@@ -1,0 +1,174 @@
+/* *********************************** */
+/* NAVIGATION */
+/* *********************************** */
+
+.header {
+    background-color: #FFC244
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.2rem 8rem;
+}
+
+.nav-image {
+}
+
+.btn-nav-start {
+    border: none;
+    background-color: #00A082;
+    padding: 1.4rem 3.2rem;
+    border-radius: 2.4rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+/* *********************************** */
+/* SECTION - HERO */
+/* *********************************** */
+
+.section-hero {
+    background-color: #FFC244;
+    width: 100%;
+    padding: 6.4rem;
+}
+
+.hero {
+    display: flex; 
+    justify-content: center;
+    gap: 3.2rem;
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+.hero-video {
+    width: 45rem;
+}
+
+.hero-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60rem;
+}
+
+.hero-header {
+    width: 45rem;
+    margin-bottom: 1.6rem;
+}
+
+.hero-sub-header {
+    margin-bottom: 1.6rem;
+}
+
+.hero-search-container {
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    height: 4.8rem;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.hero-search-icon-container {
+    background-color: #00A082;
+    height: 100%;
+    padding: 1.2rem;
+    display: flex;
+}
+
+.hero-search-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.hero-input-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+}
+
+.hero-search-input {
+    border: none;
+}
+
+.hero-search-input::placeholder {
+    font-size: 1.6rem;
+    color: #999;
+}
+
+.hero-location-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    align-self: center;
+}
+
+.hero-input-text {
+    color: #00A082;
+    align-self: center;
+    margin-left: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* *********************************** */
+/* SECTION - Restaurant */
+/* *********************************** */
+
+.restaurant-container {
+    justify-items: center;
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
+}
+
+.restaurant-card {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant-header {
+    font-weight: 700;
+    text-align: center;
+}
+
+.restaurant-image-link {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.restaurant-image {
+    width: 100%;
+}
+
+.restaurant-description:link,
+.restaurant-description:visited {
+    background-color: #FFC244;
+    text-decoration: none;
+    padding: 1rem 1.6rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700; 
+    transform: translateY(-1.6rem);
+    align-self: center;
+}
+
+/* *********************************** */
+/* SECTION - Shipping */
+/* *********************************** */
+
+.shipping-header {
+    font-weight: 700;
+    text-align: center;
+}
