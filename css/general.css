@@ -20,7 +20,7 @@ Bold: 700
 
 - Primary: #00A082, #FFC244, #E9F8F5, #1D1D1D
 - Tints: 
-- Shades: 
+- Shades: #008068
 - Accents:
 - Greys #999
 
@@ -33,7 +33,17 @@ Bold: 700
 - SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
+
+--- 08 ANIMATIONS
+0.3s (buttons)
 */
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/font/Gotham-Book.6f12943.woff2") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 
 * {
     padding: 0;
@@ -46,9 +56,10 @@ html {
 }
 
 body {
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothamss', sans-serif;
     font-weight: 400;
 }
+
 
 .container {
     max-width: 120rem;
@@ -203,4 +214,10 @@ body {
     font-weight: 700;
     letter-spacing: 0.05rem;
     cursor: pointer;
+
+    transition: background-color 0.3s;
+}
+
+.btn-rounded:hover {
+    background-color: #008068;
 }
