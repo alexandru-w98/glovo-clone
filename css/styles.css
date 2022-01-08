@@ -90,6 +90,11 @@
     border: none;
 }
 
+.hero-search-input:focus {
+    outline: none;
+}
+
+
 .hero-search-input::placeholder {
     font-size: 1.6rem;
     color: #999;
@@ -240,4 +245,179 @@
     font-weight: 700;
     border-radius: 4.8rem;
     text-align: center;
+}
+
+/* *********************************** */
+/* SECTION - Download */
+/* *********************************** */
+
+.section-download {
+    position: relative;
+}
+
+.download-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-image {
+    width: 16rem;
+}
+
+.download-header {
+    font-weight: 700;
+}
+
+.download-description {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.download-platform {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.download-button {
+    width: 15rem;
+    display: flex;
+    align-items: center; 
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.dowload-btn-image {
+    max-width: 100%;
+}
+
+.download-interface-container {
+    display: flex;
+    justify-content: end;
+}
+
+.download-interface-image {
+    max-width: 120rem;
+}
+
+/* *********************************** */
+/* SECTION - Download */
+/* *********************************** */
+
+.section-careers {
+    background-color: #E9F8F5;
+    position: relative;
+}
+
+.careers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.careers-image {
+    width: 16rem;
+    justify-self: center;
+    position: absolute;
+    top: calc(50% - 6rem);
+    right: calc(50% - 8rem);
+}
+
+.careers-grid {
+    align-items: center;
+    gap: 3.2rem
+}
+
+.careers-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.careers-card-image {
+    width: 30rem;
+}
+
+.careers-card-header {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.careers-card-description {
+    font-size: 1.6rem;
+}
+
+.careers-btn {
+    margin-top: auto;
+}
+
+/* *********************************** */
+/* SECTION - Footer */
+/* *********************************** */
+
+.footer {
+    background-color: #1D1D1D;
+    color: #fff; 
+    padding-top: 1rem
+}
+
+.footer-divider {
+    background: #E9F8F5;
+    height: 60%;
+    display: flex;
+}
+
+.footer-logo-container {
+    height: 3.2rem;
+    display: block;
+}
+
+.footer-logo {
+    height: 100%
+}
+
+.footer-grid {
+    gap: 10rem;
+    padding: 3.2rem 0 3.2rem 0 ;
+    justify-content: space-between;
+}
+
+.footer-list a:visited,
+.footer-list a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-image-container {
+    width: 12rem;
+    display: block;
+}
+
+.footer-image-container img {
+    width: 100%;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-title {
+    font-weight: 700;
+}
+
+.footer-link {
+    font-size: 1.6rem;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 2.4rem;
 }
