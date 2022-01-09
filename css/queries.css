@@ -56,4 +56,67 @@
     .hero-video {
         width: 30rem;
     }
+
+    .grid--2-cols,
+    .grid--4-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .download-divider {
+        height: 6rem;
+    }
+
+    .download-interface-container {
+        order: -1;
+        height: 50em;
+        transform: translateY(-2em);
+        z-index: -1;
+    }
+
+    .download-content {
+        padding: 0rem 2.4em;
+    }
+
+    .download-image {
+        display: none;
+    }
+
+    .careers-card-image {
+        width: 20em;
+    }
+
+    .location-image {
+        width: 20em;
+    }
+
+    .nav-image {
+        width: 14em;
+        display: block;
+    }
+
+    .nav-image img {
+        width: 100%;
+    }
+
+    .footer-grid {
+        gap: 3em;
+    }
+}
+
+/* *********************************** */
+/* BELOW 600px */
+/* *********************************** */
+
+@media (max-width: 37em) {
+    .nav-list {
+        padding: 3.2rem 4rem;
+    }
+
+    .nav-image {
+        width: 8em;
+    }
+
+    .hero-input-text {
+        display: none;
+    }
 }

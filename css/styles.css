@@ -6,6 +6,10 @@
     background-color: #FFC244;
 }
 
+.nav {
+    width: 100%;
+}
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -45,11 +49,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 60rem;
+    max-width: 60rem;
 }
 
 .hero-header {
-    width: 45rem;
+    max-width: 45rem;
     margin-bottom: 1.6rem;
 }
 
@@ -384,7 +388,7 @@
 .footer {
     background-color: #1D1D1D;
     color: #fff; 
-    padding-top: 1rem
+    padding-top: 1rem;
 }
 
 .footer-divider {
