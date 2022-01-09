@@ -1,0 +1,59 @@
+/* *********************************** */
+/* BELOW 1050px */
+/* *********************************** */
+
+@media (max-width: 65em) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurant-container {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .restaurant-container::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+    }
+
+    .restaurant-image-link {
+        width: 14em;
+    }
+
+    .grid--3-cols {
+        grid-template-columns: 1fr;
+    }
+
+    .section-container {
+        max-width: 50em;;
+    }
+
+    .hero-search-container {
+        width: 90%;
+    }
+
+    .divider {
+        height: 22%;
+    }
+
+    .download-content {
+        padding: 12rem 2.4em;
+        justify-content: flex-end;
+    }
+
+    .download-image {
+        width: 8em;
+    }
+}
+
+/* *********************************** */
+/* BELOW 750px */
+/* *********************************** */
+
+@media (max-width: 46em) {
+    .hero-video {
+        width: 30rem;
+    }
+}

@@ -3,7 +3,7 @@
 /* *********************************** */
 
 .header {
-    background-color: #FFC244
+    background-color: #FFC244;
 }
 
 .nav-list {
@@ -237,6 +237,7 @@
 
 .location-header {
     font-weight: 700;
+    text-align: center;
 }
 
 .list {
@@ -271,6 +272,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 20%;
 }
 
 .download-image {
@@ -284,6 +286,7 @@
 .download-description {
     font-size: 1.6rem;
     font-weight: 500;
+    text-align: center;
 }
 
 .download-platform {
@@ -307,10 +310,12 @@
 .download-interface-container {
     display: flex;
     justify-content: end;
+    width: 100%;
 }
 
 .download-interface-image {
-    max-width: 120rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* *********************************** */
@@ -326,14 +331,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .careers-image {
-    width: 16rem;
+    height: 80%;
     justify-self: center;
     position: absolute;
-    top: calc(50% - 6rem);
-    right: calc(50% - 8rem);
+    top: calc(10%);
+    right: calc(40%);
 }
 
 .careers-grid {
@@ -366,6 +372,11 @@
     margin-top: auto;
 }
 
+.careers-divider {
+    background-color: #E9F8F5;
+    position: relative;
+}
+
 /* *********************************** */
 /* SECTION - Footer */
 /* *********************************** */
@@ -392,7 +403,7 @@
 }
 
 .footer-grid {
-    gap: 10rem;
+    justify-content: space-between;
     padding: 3.2rem 0 3.2rem 0 ;
     justify-content: space-between;
 }
